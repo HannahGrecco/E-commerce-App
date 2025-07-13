@@ -9,8 +9,14 @@
   "license": "ISC",
   "author": "Hannah",
   "type": "module",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.16.3",
+    "nodemon": "^3.1.10"
   }
 }
