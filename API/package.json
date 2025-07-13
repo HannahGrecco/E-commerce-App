@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Api for the project",
+  "keywords": [
+    "node",
+    "api"
+  ],
+  "license": "ISC",
+  "author": "Hannah",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
